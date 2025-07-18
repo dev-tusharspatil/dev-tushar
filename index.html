@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tushar Patil – Backend Consultant</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Portfolio of Akash Pathade, a Full-Stack Developer with 4+ years of experience building scalable fintech and AI-powered systems using Node.js, React, Python, Laravel, and AWS.">
+	<meta name="author" content="Akash Pathade">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+	<!-- FontAwesome JS -->
+	<script defer src="assets/fontawesome/js/all.js"></script>
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+	<style type="text/css">
+		.profile-teaser {
+			background: #fff;
+			border-radius: 1rem;
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+			transition: all 0.3s ease;
+		}
+
+		.profile-teaser:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+		}
+
+		.about-me-section {
+			font-family: 'Inter', 'Segoe UI', sans-serif;
+		}
+
+		.btn-primary {
+			background-color: #007bff;
+			border: none;
+		}
+
+		.btn-outline-secondary {
+			border-color: #ccc;
+			color: #333;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header class="header text-center">
+		<div class="force-overflow">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="navigation" class="collapse navbar-collapse flex-column vh-100 justify-content-center">
+					<h1 class="blog-name pt-lg-4 mb-0">
+						<a class="no-text-decoration" href="index.html">Tushar Patil</a>
+					</h1>
+					<div class="profile-section mt-2 pt-lg-0">
+						<img class="profile-image rounded-circle mx-auto" src="assets/images/profile.jpeg" alt="image">
+					</div>
+	
+					<ul class="social-list list-inline mx-auto mt-3 align-items-center">
+						<li class="list-inline-item">
+							<a class="linkedin" href="https://www.linkedin.com/in/dev-tusharspatil/" target="_blank">
+								<i class="fa-brands fa-linkedin-in fa-fw"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="github" href="https://github.com/dev-tusharspatil" target="_blank">
+								<i class="fa-brands fa-github-alt fa-fw fa-lg"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="instagram" href="https://www.instagram.com/dev_tusharspatil" target="_blank">
+								<i class="fa-brands fa-instagram fa-fw"></i>
+							</a>
+						</li>
+					</ul>
+
+					<ul class="navbar-nav flex-column mt-2 text-lg-start mx-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">
+								<i class="fas fa-user fa-fw me-2"></i>About Me
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="collabrations.html">
+								<i class="fas fa-user fa-fw me-2"></i>Collabrations
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="projects.html">
+								<i class="fas fa-laptop-code fa-fw me-2"></i>Projects
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="products.html">
+								<i class="fa-solid fa-window-restore fa-fw me-2"></i>Products
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">
+								<i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact
+							</a>
+						</li>
+					</ul>
+
+					<div class="dark-mode-toggle text-center w-100 mt-4">
+						<h4 class="toggle-name mb-2">
+							<i class="fas fa-adjust me-1"></i>Dark Mode
+						</h4>
+						<input class="toggle" id="darkmode" type="checkbox">
+						<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div class="main-wrapper">
+		<section class="about-me-section p-3 p-lg-5 theme-bg-light" style="background-color: #f5f7fa;">
+		<div class="container">
+  <div class="profile-teaser row align-items-center bg-white shadow rounded-4 p-4">
+
+    <!-- Left Column -->
+    <div class="col-lg-7">
+      <h2 class="name fw-bold mb-1" style="font-size: 2rem;">Tushar Patil</h2>
+      <div class="tagline mb-3 text-success fs-5 fw-bold">Senior Software Engineer / Backend Consultant</div>
+
+      <!-- Mobile-only image -->
+      <img class="d-block d-md-none profile-image rounded-circle mx-auto my-3"
+        src="assets/images/profile.jpeg" alt="Profile Image" width="140">
+
+      <div class="bio mb-4 text-secondary fs-6">
+        <p>
+          I’m a <strong>tech-driven Full-stack Developer</strong> and <strong>Backend Consultant</strong> with
+          <strong>4+ years of experience</strong> delivering scalable systems across
+          <strong>Real Estate, Healthcare, Fintech, Crypto</strong>, and <strong>AI</strong> domains.
+        </p>
+       <p>
+  I’ve delivered scalable systems for startups to scale-ups across <strong>India, the UK, Dubai</strong>, and the <strong>USA</strong> — working both full-time and as a consultant. As a <strong>Senior Backend Developer</strong>, I’ve <strong>led small development teams</strong>, <strong>architected robust systems</strong>, and owned <strong>end-to-end product delivery</strong> from planning to deployment.
+</p>
+
+        <p>
+  Backed by <strong>100+ successful projects</strong>, I build <strong>high-performance REST APIs</strong>, <strong>automation systems</strong>, and <strong>cloud-native backends</strong> using <strong>Django, Flask, FastAPI</strong>, and <strong>serverless tech</strong>. I’ve engineered scalable solutions with <strong>SQL/NoSQL</strong> databases and delivered <strong>AI-powered modules</strong> from data pipelines to <strong>ML model deployments</strong>. I help businesses <strong>scale smarter</strong> with robust, maintainable architecture.
+</p>
+
+        <p>
+          <strong>Trusted by</strong> brands such as <strong>TravelIncognito</strong>,
+          <strong>Robeling Group</strong>, <strong>EverMen</strong>, <strong>ARPowerNow</strong>,
+          <strong>Zartek</strong>, and <strong>LPCinvest</strong>.
+        </p>
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="mb-4">
+        <a class="btn btn-dark me-2 mb-3" href="collbrations.html">
+          <i class="fas fa-arrow-alt-circle-right me-2"></i>
+          <span class="d-none d-md-inline">View</span> Collabrations
+        </a>
+        <a class="btn btn-dark me-2 mb-3" href="resume.html">
+          <i class="fas fa-file-alt me-2"></i>
+          <span class="d-none d-md-inline">View</span> Resume
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-5 col-lg-5 text-center">
+      <img class="img-fluid rounded-4"
+        src="https://webixnet.com/wp-content/uploads/2022/09/97639-coding.gif"
+        alt="Coding animation">
+    </div>
+
+  </div>
+</div>
+
+
+
+		</section>
+		<section class="overview-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-3">Tech I Work With</h2>
+				<div class="section-intro mb-5">A curated stack of tools and technologies I work with daily—chosen for
+					performance, scale, and reliability.</div>
+
+				<div class="row">
+					<!-- Backend -->
+					<h3 class="mb-3">Backend</h3>
+					<div class="row">
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-python" style="color:#3776AB"></i></div>
+								<h4 class="item-title">Python</h4>
+								<div class="item-desc">Popular for ML, scripting & clean backend logic. Used in 49% of
+									professional dev stacks.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-fire" style="color:#009688"></i></div>
+								<h4 class="item-title">FastAPI</h4>
+								<div class="item-desc">High-speed Python framework. Ideal for async microservices &
+									OpenAPI generation.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-python" style="color:#092E20"></i></div>
+								<h4 class="item-title">Django</h4>
+								<div class="item-desc">Batteries-included framework. Powers 12% of world’s websites
+									including Instagram.</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Frontend -->
+					<h3 class="my-3">Frontend</h3>
+					<div class="row">
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-react" style="color:#61DAFB"></i></div>
+								<h4 class="item-title">React.js</h4>
+								<div class="item-desc">Component-based SPA builder. Used by 80% of front-end teams
+									globally.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-bootstrap" style="color:#7952B3"></i>
+								</div>
+								<h4 class="item-title">Bootstrap</h4>
+								<div class="item-desc">Most popular CSS framework. Enables responsive UI in minutes.
+									Used in 19% of all websites.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-css3-alt" style="color:#38B2AC"></i></div>
+								<h4 class="item-title">Tailwind CSS</h4>
+								<div class="item-desc">Utility-first CSS framework. Speeds up styling with reusable
+									classes and responsive design.</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Databases -->
+					<h3 class="my-3">Databases</h3>
+					<div class="row">
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-database" style="color:#00618A"></i></div>
+								<h4 class="item-title">PostgreSQL</h4>
+								<div class="item-desc">Robust relational DB with ACID compliance. Trusted by Apple,
+									Reddit & more.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-database" style="color:#00758F"></i></div>
+								<h4 class="item-title">MySQL</h4>
+								<div class="item-desc">Reliable SQL database. Powers 58.7% of relational DB usage
+									(StackOverflow 2023).</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-leaf" style="color:#47A248"></i></div>
+								<h4 class="item-title">MongoDB</h4>
+								<div class="item-desc">NoSQL document DB. Ideal for rapid prototyping and dynamic
+									schemas.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-bolt" style="color:#DC382D"></i></div>
+								<h4 class="item-title">Redis</h4>
+								<div class="item-desc">In-memory cache & message broker. Cuts response time by up to
+									80%.</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- DevOps & Architecture -->
+					<h3 class="my-3">DevOps & Architecture</h3>
+					<div class="row">
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-aws" style="color:#FF9900"></i></div>
+								<h4 class="item-title">AWS & Lambda</h4>
+								<div class="item-desc">Deployed scalable applications with EC2, S3, and RDS; leveraged
+									Serverless for cost-efficient, event-driven microservices.</div>
+							</div>
+						</div>
+
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-docker" style="color:#2496ED"></i></div>
+								<h4 class="item-title">Docker</h4>
+								<div class="item-desc">Containerization ensures consistent dev→prod workflow. Used in
+									80%+ enterprise stacks.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-brands fa-github" style="color:#000000"></i></div>
+								<h4 class="item-title">GitHub Actions</h4>
+								<div class="item-desc">Automate CI/CD workflows. Used for testing, deployment, and
+									Docker build pipelines.</div>
+							</div>
+						</div>
+						<div class="item col-6 col-lg-3">
+							<div class="item-inner">
+								<div class="item-icon"><i class="fa-solid fa-diagram-project" style="color:#4A90E2"></i>
+								</div>
+								<h4 class="item-title">Event-driven Architecture</h4>
+								<div class="item-desc">Best for decoupled services. Enables scalability & real-time
+									updates via pub-sub/event queues.</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tools & Enhancers -->
+<h3 class="mt-5">Languages, Tools & Enhancers</h3>
+<div class="row">
+
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-spider" style="color:#4CAF50"></i></div>
+      <h4 class="item-title">Selenium & BeautifulSoup</h4>
+      <div class="item-desc">Automates browser actions for testing or scraping. Ideal for dynamic web pages and JS-heavy content.</div>
+    </div>
+  </div>
+
+
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-user-secret" style="color:#FF5722"></i></div>
+      <h4 class="item-title">Undetected Scraping</h4>
+      <div class="item-desc">Used stealth techniques and headless tools like <strong>undetected-chromedriver</strong> to bypass bot detection.</div>
+    </div>
+  </div>
+
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-network-wired" style="color:#E44D26"></i></div>
+      <h4 class="item-title">REST API</h4>
+      <div class="item-desc">Standard for scalable HTTP APIs. Enables smooth communication between frontends & backends.</div>
+    </div>
+  </div>
+
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-plug" style="color:#FF6F61"></i></div>
+      <h4 class="item-title">Third-Party Integrations</h4>
+      <div class="item-desc">Seamlessly connect external services (payments, analytics, AI) to enhance app capabilities.</div>
+    </div>
+  </div>
+
+</div>
+
+
+
+					<!-- Data Science -->
+<h3 class="my-4">Data Science</h3>
+<div class="row">
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-table" style="color:#150458"></i></div>
+      <h4 class="item-title">Pandas</h4>
+      <div class="item-desc">Data wrangling made easy. Widely used for tabular data analysis and time-series pipelines.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-chart-line" style="color:#4B8BBE"></i></div>
+      <h4 class="item-title">NumPy</h4>
+      <div class="item-desc">Core library for numerical computing. Enables vectorized operations and multidimensional arrays.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-chart-area" style="color:#E34F26"></i></div>
+      <h4 class="item-title">Matplotlib</h4>
+      <div class="item-desc">Standard Python plotting library. Great for generating static, interactive, and animated charts.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-chart-bar" style="color:#43B02A"></i></div>
+      <h4 class="item-title">Seaborn</h4>
+      <div class="item-desc">Built on Matplotlib, adds beautiful visualizations for statistical data exploration and presentation.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Machine Learning & AI -->
+<h3 class="my-4">Machine Learning & AI</h3>
+<div class="row">
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-brain" style="color:#EF476F"></i></div>
+      <h4 class="item-title">ML Algorithms</h4>
+      <div class="item-desc">Implemented supervised and unsupervised models like regression, classification, clustering, and more.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-image" style="color:#F9A825"></i></div>
+      <h4 class="item-title">OpenCV</h4>
+      <div class="item-desc">Computer vision toolkit for image processing, object detection, and real-time tracking systems.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-eye" style="color:#6C63FF"></i></div>
+      <h4 class="item-title">Image Processing</h4>
+      <div class="item-desc">Processed and enhanced images for ML pipelines using filters, segmentation, and feature extraction.</div>
+    </div>
+  </div>
+  <div class="item col-6 col-lg-3">
+    <div class="item-inner">
+      <div class="item-icon"><i class="fa-solid fa-layer-group" style="color:#0A9396"></i></div>
+      <h4 class="item-title">CNN</h4>
+      <div class="item-desc">Built and trained Convolutional Neural Networks for image classification and deep learning projects.</div>
+    </div>
+  </div>
+</div>
+
+
+				</div>
+
+				<!-- <div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i
+							class="fas fa-arrow-alt-circle-right me-2"></i>Services &amp; Pricing
+
+					</a></div> -->
+
+			</div>
+			<!--//container-->
+		</section>
+		<section class="featured-section p-3 p-lg-5 bg-light">
+			<div class="container">
+				<h2 class="section-title fw-bold mb-4 text-center">Consulting Engagements & Active Clients</h2>
+				<p class="section-intro text-center mb-5">From travel to healthcare and real estate — building and
+					maintaining scalable, high-impact platforms.</p>
+				<div class="row g-4">
+
+					<!-- Project 1 -->
+					<div class="col-xl-6 col-md-6">
+						<div class="card project-card h-100 shadow-sm border-0 rounded-4 hover-effect">
+							<div class="card-img-top overflow-hidden rounded-top-4">
+								<img src="assets/images/project/travelin.jpeg" class="img-fluid" alt="Travelincognito">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="https://lend-me-p2p.netlify.app/" class="text-decoration-none fw-bold"
+										target="_blank" rel="noopener">
+										Travelincognito
+									</a>
+									<small class="d-block text-muted fw-normal mt-1">71–75 Shelton Street, Covent
+										Garden, London, UK</small>
+								</h5>
+
+								<h6>Travel, Hospitality & Blockchain</h6>
+								<p class="card-text">Building a next-gen crypto-based travel platform where users can
+									book hotels, flights, and experiences using cryptocurrency. Combines blockchain,
+									AI-driven itinerary planning, and real-time booking APIs.</p>
+								<p class="card-text"><small class="text-muted">Led end-to-end backend development for
+										Travel Incognito — from architecture to AWS deployment. Integrated AI trip
+										planning, crypto payments, and booking workflows.</small></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 2 -->
+					<div class="col-xl-6 col-md-6">
+						<div class="card project-card h-100 shadow-sm border-0 rounded-4 hover-effect">
+							<div class="card-img-top overflow-hidden rounded-top-4">
+								<img src="assets/images/project/rrd1.jpg" class="img-fluid" alt="Roebling Group">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="https://evalo.ai/" class="text-decoration-none fw-bold" target="_blank"
+										rel="noopener">
+										Roebling Redevelopment Group LLP
+										<small class="d-block text-muted fw-normal mt-1">1080 Grove Street, Florence, NJ
+											08518, USA</small></a>
+								</h5>
+								<h6>Real Estate & Construction</h6>
+								<p class="card-text">RRG is a real estate and construction firm focused on
+									redevelopment. Built a backend automation platform to streamline vendor workflows,
+									material tracking, and project reporting using data-driven tools.
+								<p class="card-text"><small class="text-muted">Worked on backend development of an
+										automation platform for project tracking, payments, vendor coordination, and
+										data aggregation — building scrapers, integrating proxies, and deploying the
+										system on AWS.</p>
+								</small></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 3 -->
+					<div class="col-xl-6 col-md-6">
+						<div class="card project-card h-100 shadow-sm border-0 rounded-4 hover-effect">
+							<div class="card-img-top overflow-hidden rounded-top-4">
+								<img src="assets/images/project/everMen.jpeg" class="img-fluid" alt="EverMen EHR">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="https://test.evermen.com/" class="text-decoration-none fw-bold"
+										target="_blank" rel="noopener">
+										EverMen <small class="d-block text-muted fw-normal mt-1">Evermen, United
+											States</small>
+									</a>
+								</h5>
+								<h6>Healthcare / Electronic Health Records (EHR)</h6>
+								<p class="card-text"> Evermen is a scalable Electronic Health Records (EHR) platform
+									designed to manage appointments, prescriptions, and lab reports, with a strong focus
+									on security, HIPAA compliance, and long-term extensibility.</p>
+								<p class="card-text"><small class="text-muted">Leading backend development of secure
+										REST APIs, integrating third-party EHR labs and appointment systems, managing
+										role-based access with HIPAA compliance, and collaborating with Evermen’s
+										frontend and UI/UX teams to build a scalable, modular EHR platform.</small></p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Project 4 -->
+					<div class="col-xl-6 col-md-6">
+						<div class="card project-card h-100 shadow-sm border-0 rounded-4 hover-effect">
+							<div class="card-img-top overflow-hidden rounded-top-4">
+								<img src="assets/images/project/arpower.jpeg" class="img-fluid"
+									alt="AR Power Dashboard">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="https://arpowernow.com/" class="text-decoration-none fw-bold"
+										target="_blank" rel="noopener">
+										ARPower Now <small class="d-block text-muted fw-normal mt-1">Bengaluru,
+											Karnataka </small>
+									</a>
+								</h5>
+								<h6>Power Electronics</h6>
+								<p class="card-text">ARPowerNow enables engineers to analyze and select optimal
+									components with a searchable database and data-driven design tools for power
+									electronics systems.</p>
+								<p class="card-text"><small class="text-muted">Served as backend consultant, refactored
+										legacy codebase, optimized REST API performance, shipped new production
+										features, and led full-cycle deployment on Microsoft Azure—covering VM setup,
+										environment provisioning, DNS, and SSL configuration.</small></p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="testimonials-section products-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
+
+				<div class="testiomonial-carousel-container">
+					<div class="testimonial-carousel  tiny-slider">
+						<div class="item">
+							<div class="item-inner">
+								<div class="quote-holder">
+									<blockquote class="quote-content">
+										<div class="quote-text">
+											Tushar was an exceptional member of our LPC Invest digital team -
+											professional, reliable, and communicative.
+											He tackled every task with care and consistently delivered excellent
+											results. Despite time-zone challenges, he was always reachable, often beyond
+											standard hours, keeping projects on track and reinforcing team trust.
+											Tushar excels in collaborative environments. His strong work ethic and
+											professionalism stood out at LPC, and the team enjoyed working alongside
+											him!
+										</div>
+										<button class="read-more-btn">Read More</button>
+
+										<a class="btn btn-sm"
+											href="https://www.linkedin.com/in/tushar-patil-087a81194/details/recommendations/"
+											target="_blank"
+											style="color:#0A66C2; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; margin-top:8px;">
+											<i class="fab fa-linkedin" style="margin-right:6px;"></i> Read full on
+											LinkedIn
+											<i class="fa-solid fa-arrow-up-right-from-square"
+												style="margin-left:6px;"></i>
+										</a>
+									</blockquote>
+
+									<i class="fas fa-quote-left"></i>
+								</div>
+								<!--//quote-holder-->
+								<div class="source-holder">
+									<div class="source-profile">
+										<img src="assets/images/clients/Gorgia.jpeg" alt="Omprakash Dubey" />
+									</div>
+									<div class="meta">
+										<div class="name"><strong>Georgia Evison-Castaldo</strong></div>
+										<div class="info">Marketing & Business Development Executive @ Clyde & Co
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--//item-inner-->
+						</div>
+
+						<div class="item">
+							<div class="item-inner">
+								<div class="quote-holder">
+									<blockquote class="quote-content">
+										Tushar is a very talented and dedicated we lb developer and Data Scientist with
+										a track record of delivering with top quality full stack development projects
+										for companies and corporations.
+										I recommend him for any opportunity in this regard.
+										<!-- <small style="display:block; margin-top:8px;">[This is a shortened version of the full
+											recommendation]</small> -->
+										<a class="btn btn-sm"
+											href="https://www.linkedin.com/in/tushar-patil-087a81194/details/recommendations/"
+											target="_blank"
+											style="color:#0A66C2; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; margin-top:8px;">
+											<i class="fab fa-linkedin" style="margin-right:6px;"></i> Read full on
+											LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"
+												style="margin-left:6px;"></i>
+										</a>
+									</blockquote>
+									<i class="fas fa-quote-left"></i>
+								</div>
+								<!--//quote-holder-->
+								<div class="source-holder">
+									<div class="source-profile">
+										<img src="assets/images/clients/ibe.jpeg" alt="Sreenath Thatikonda" />
+									</div>
+									<div class="meta">
+										<div class="name"><strong>Ibe Benedict</strong></div>
+										<div class="info">Senior Data Analyst @ LPC Invest</div>
+									</div>
+								</div>
+							</div>
+							<!--//item-inner-->
+						</div>
+						<div class="item">
+							<div class="item-inner">
+								<div class="quote-holder">
+									<blockquote class="quote-content">
+										Exceptional experience! The delivery exceeded expectations, arriving ahead of
+										schedule. They went the extra mile to ensure the project was completed on time.
+										Highly recommended!.
+										<!-- <small style="display:block; margin-top:8px;">[This is a shortened version of the full
+											recommendation]</small> -->
+										<a class="btn btn-sm"
+											href="https://www.fiverr.com/tusharpatil934?public_mode=true"
+											target="_blank"
+											style="color:#0A66C2; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; margin-top:8px;">
+											<i class="fab fa-linkedin" style="margin-right:6px;"></i> Read full on
+											Fiverr <i class="fa-solid fa-arrow-up-right-from-square"
+												style="margin-left:6px;"></i>
+										</a>
+									</blockquote>
+									<i class="fas fa-quote-left"></i>
+								</div>
+								<!--//quote-holder-->
+								<div class="source-holder">
+									<div class="source-profile">
+										<img src="assets/images/clients/profile-1.png" alt="Sreenath Thatikonda" />
+									</div>
+									<div class="meta">
+										<div class="name"><strong>Rahul Kumar, Germeny</strong></div>
+										<div class="info">Client From Fiverr</div>
+									</div>
+								</div>
+							</div>
+							<!--//item-inner-->
+						</div>
+
+
+					</div>
+
+					<!--//item-->
+				</div>
+				<!--//testimonial-carousel-->
+			</div>
+			<!--//testimonial-carousel-container-->
+		</div>
+		<!--//container-->
+		</section>
+
+	<!--//testimonials-section-->
+
+
+	</div>
+	<!--//main-wrapper-->
+
+
+	<!-- Javascript -->
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
+	<script src="assets/js/testimonials.js"></script>
+
+	<!-- Dark Mode -->
+	<script src="assets/plugins/js-cookie.min.js"></script>
+	<script src="assets/js/dark-mode.js"></script>
+
+</body>
+
+
+</html>
